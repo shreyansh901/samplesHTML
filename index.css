@@ -82,20 +82,13 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-    background: radial-gradient(
-    circle at top,    /* Center point at the top-middle */
-    #ffcad4  10%,       /* Start color (Red) */
-    #fff3b0 ,      /* Middle color */
-    #ffd6a5 ,
-    #f4c2ff /* Fades out at the edges */
-  );
-  /*background: linear-gradient(
+  background: linear-gradient(
     135deg,
     #fff3b0 ,
-    #ffd6a5 ,    /* #ffcad4*//*
+    #ffd6a5 ,    /* #ffcad4*/
     #f4c2ff ,
     #f4c2ff 
-  );*/
+  );
 }
 
 /* Main layout */
